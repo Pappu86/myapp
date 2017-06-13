@@ -1,0 +1,97 @@
+{
+	"title" : "Apple",
+	"type" : "fruit",
+	"value":100,
+	"qty":5
+},
+{
+	"title" : "Apple",
+	"type" : "fruit",
+	"value":150,
+	"qty":2
+},
+{
+	"title" : "Apple",
+	"type" : "fruit",
+	"value":500,
+	"qty":10
+},
+{
+	"title" : "Apple",
+	"type" : "fruit",
+	"value":250,
+	"qty":8
+},
+{
+	"title" : "Apple",
+	"type" : "fruit",
+	"value":1000,
+	"qty":100
+},
+{
+	"title" : "Banana",
+	"type" : "fruit",
+	"value":50,
+	"qty":5
+
+},
+{
+	"title" : "Banana",
+	"type" : "fruit",
+	"value":45,
+	"qty":2
+},
+{
+	"title" : "Banana",
+	"type" : "fruit",
+	"value":120,
+	"qty":6
+},
+{
+	"title" : "Banana",
+	"type" : "fruit",
+	"value":80,
+	"qty":8
+},
+{
+	"title" : "Banana",
+	"type" : "fruit",
+	"value":30,
+	"qty":5
+},
+{
+	"title" : "Banana",
+	"type" : "fruit",
+	"value":16,
+	"qty":4
+},
+{
+	"title" : "Mango",
+	"type" : "fruit",
+	"value":160,
+	"qty":16
+},
+{
+	"title" : "Mango",
+	"type" : "fruit",
+	"value":200,
+	"qty":5
+},
+{
+	"title" : "Mango",
+	"type" : "fruit",
+	"value":250,
+	"qty":25
+},
+{
+	"title" : "Mango",
+	"type" : "fruit",
+	"value":45,
+	"qty":5
+},
+{
+	"title" : "Mango",
+	"type" : "fruit",
+	"value":180,
+	"qty":5
+}

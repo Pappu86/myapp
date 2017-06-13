@@ -1,7 +1,8 @@
-//Tasks=new Meteor.collection('tasks');
-const Stages = new Mongo.Collection('stages');
-Stages.insert(
-	{ title: 'New', type: 'new' }
-	{ title: 'Inprogress', type: 'inprogress' }
-	{ title: 'Close', type: 'close' }
-	);
+Stages = new Meteor.Collection('stages');
+
+
+//Stages.insert({ title: 'New', type: 'new' });
+
+// Stages.after.insert(function (doc) {
+//   console.log("doc",doc);
+// });

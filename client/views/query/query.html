@@ -1,0 +1,23 @@
+<template name="queryView">
+<div class="col-md-12 pb15"><h3>Simple query</h3></div> 
+<div class="col-md-12" style="background:#fff;">
+	<table class="table table-hover">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Qantity</th>
+        <th class="text-right">Total</th>
+      </tr>
+    </thead>
+    <tbody>
+    {{#each getSimpleData}}
+      <tr>
+        <td>{{title}}</td>
+        <td>{{qty}}</td>
+        <td class="text-right">{{value}}</td>
+      </tr>     
+      {{/each}}
+    </tbody>
+  </table>
+</div>
+</template>
