@@ -2,6 +2,12 @@
 body {
     background:#3498db;
 }
+.pl0{
+	padding-left: 0;
+}
+.pr0{
+	padding-right: 0;
+}
 .pt10{
     padding-top: 10px;
 }
@@ -14,4 +20,13 @@ body {
 }
 .pb15{
     padding-bottom: 15px;
+}
+.nopadding{
+	padding: 0 !important;
+}
+.nomargin{
+	margin: 0 !important;
+}
+.bg-white{
+	background: #fff;
 }

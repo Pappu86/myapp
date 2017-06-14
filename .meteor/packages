@@ -25,3 +25,4 @@ pappu:bootstrap-datetimepicker
 iron:router
 twbs:bootstrap
 fortawesome:fontawesome
+meteorhacks:aggregate

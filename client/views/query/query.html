@@ -1,6 +1,28 @@
 <template name="queryView">
-<div class="col-md-12 pb15"><h3>Simple query</h3></div> 
-<div class="col-md-12" style="background:#fff;">
+<div class="col-md-12 pl0 pr0 pt10 pb10">Aggregation query</div>
+<div class="col-md-12 bg-white">
+	<table class="table table-hover">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Qantity</th>
+        <th class="text-right">Total</th>
+      </tr>
+    </thead>
+    <tbody>
+    {{#each getAgrigateData}}
+      <tr>
+        <td>{{title}}</td>
+        <td>{{qty}}</td>
+        <td class="text-right">{{value}}</td>
+      </tr>     
+      {{/each}}
+    </tbody>
+  </table>
+</div>
+
+<div class="col-md-12 pl0 pr0 pt10 pb10">Simple query</div> 
+<div class="col-md-12 bg-white">
 	<table class="table table-hover">
     <thead>
       <tr>
@@ -20,4 +42,5 @@
     </tbody>
   </table>
 </div>
+<div class="col-md-12 pb15"></div>
 </template>
